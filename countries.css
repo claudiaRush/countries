@@ -1,0 +1,190 @@
+body{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0;
+    background-color:lightblue;
+}
+
+header{
+    background-color:wheat;
+    width:100%;
+    padding: 0 .5em;
+    margin:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#global{
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+
+#global img{
+    width: 50px;
+}
+
+h2{
+    color: grey;
+    font-size: 1.5em;
+}
+
+#form{
+    background-color:darkgreen;
+    padding: .5em;
+    margin: 0;
+    width: 100%;
+}
+
+input[type="button"]{
+    background-color: lightgrey;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+
+input[type="text"]{
+    outline-color: green;
+    width: 20%;
+    font-weight: bold;
+}
+
+select{
+    outline-color: green;
+}
+
+#addButton{
+    display: none;
+}
+
+select{
+    width: 20%;
+    display: none;
+}
+
+.wikilinks{
+    position: absolute;
+    right: .5em;
+}
+
+input[type="checkbox"]{
+    color: green;
+   
+}
+
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    float: left;
+    height: auto;
+    align-items: stretch;
+    margin: 2em;
+    gap: 1.5em;
+    margin-bottom: 10vh;
+
+}
+
+.country{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    background-color: wheat;
+    border: thin solid black;
+    border-radius: 1%;
+    box-shadow: 6px 6px 5px grey;
+    padding: 0 1em;
+    max-width: 25%;
+    min-width: 200px;
+}
+
+#countryName{
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-bottom: .5em;
+    text-align: left;
+}
+
+#deleter{
+    width: 1.5em;
+    height: 1.5em;
+    border: none;
+    cursor : pointer;
+    background: none;
+    position: absolute;
+    right: 0;
+}
+
+#deleter::before{
+    content: 'x';
+    font-size: 1.5em;
+    font-weight: bold;
+    color: grey;
+}
+
+#flag{
+    border-style: solid;
+    border-color: black;
+    display: block;
+    width: 100%;
+}
+
+#table{
+    box-sizing: border-box;
+    margin-top: 1em;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 2em;
+    word-wrap: break-word;
+}
+
+.wikiSection{
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+.article{
+    background-color: white;
+    border: solid thin gray;
+    border-radius: 5%;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.title{
+    background-color: lightgray;
+    color: blue;
+    padding: .5em;
+    margin: 0;
+    border-bottom: solid thin gray;
+}
+
+.snippet{
+    margin: 1em;
+}
+
+a{
+    text-decoration-line: none;
+}
+
+.searchmatch {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+footer{
+    background-color:wheat;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: grey;
+    font-weight: normal;
+    padding: .5em;
+}

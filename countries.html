@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Countries</title>
+    <script src="countries.js"></script>
+    <link href="countries.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <div id="global">
+        <img src="globe.png" alt="Globe">
+        <h1>Global Ascension</h1>
+      </div>
+      <h2>rush7141@uwlax.edu</h2>
+    </header>
+      <div id="form">
+        <input type="text" id="name" placeholder="Country name (or partial name)">
+        <input type="button" id="searchButton" value="Search">
+        <select id="selectCountry" name="Country"></select>
+        <input type = 'button' value="Add" id="addButton">
+        <span class="wikilinks">
+          <input type="checkbox" id="links"><label>show wiki links</label>
+        </span>
+      </div>
+    <div id="container">
+    </div>
+    <footer>&copy; Countries Inc.</footer>
+  </body>
+</html>
